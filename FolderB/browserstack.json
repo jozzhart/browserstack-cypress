@@ -1,0 +1,32 @@
+{
+  "auth": {
+    "username": "XXXXXX",
+    "access_key": "XXXXXXXXX"
+  },
+  "browsers": [
+    {
+      "browser": "chrome",
+      "os": "Windows 10",
+      "versions": ["latest"]
+    }
+  ],
+  "run_settings": {
+    "home_directory": "../",
+    "cypress_config_file": "./cypress.config.js",
+    "cypress_version": "10",
+    "project_name": "Cypress Kitchen Sink Example",
+    "build_name": "Build no: 1",
+    "parallels": 1,
+    "exclude": ["FolderB/bstackPackages.tar.gz"],
+    "npm_dependencies": {
+      "@badeball/cypress-cucumber-preprocessor": "latest"
+    }
+  },
+  "connection_settings": {
+    "local": false,
+    "local_identifier": null,
+    "local_mode": null,
+    "local_config_file": null
+  },
+  "disable_usage_reporting": false
+}
